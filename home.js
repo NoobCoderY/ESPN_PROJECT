@@ -33,7 +33,7 @@ function extractData(body) {
     let document = dom.window.document;
 
     let element = document.querySelector(".ds-block.ds-text-center.ds-uppercase.ds-text-ui-typo-primary.ds-underline-offset-4")
-    let link = element.getAttribute("href");
+    let link = element.getAttribute(" href");
     // console.log("link", link);
     let AllMatchPageKaLink = "https://www.espncricinfo.com" + link;
     console.log(AllMatchPageKaLink);

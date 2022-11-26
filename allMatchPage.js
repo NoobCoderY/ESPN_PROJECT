@@ -34,7 +34,7 @@ function extractData(body) {
         let scoreCardAnchor = allAnchors[2];
         let link = scoreCardAnchor.getAttribute("href");
         let scoreCardLink = "https://www.espncricinfo.com" + link;
-        console.log(scoreCardLink);
+        // console.log(scoreCardLink);
         scoreCardObj.scoreCardFn(scoreCardLink);
     }
     console.log("```````````````````````````````````````````````");
